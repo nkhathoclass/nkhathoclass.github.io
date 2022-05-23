@@ -1,0 +1,27 @@
+article img {
+    width: 100%;
+}
+
+article h2 {
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size: 2.5rem;
+}
+
+@media (min-width: 500px) { 
+    article{
+        margin-top: 20px;
+        overflow: auto;
+    }
+    article img {
+        width: 40vw;
+        margin-right: 20px;
+        float: left;
+    }
+}
+
+@media (min-width: 900px) {
+    article img {
+        width: 20vw;
+    }
+}
